@@ -35,8 +35,12 @@ public class Emplyoee {
         this.salary = salary;
     }
 
-    public void aumento( double value){
+    public void increaseSalary( double value){
         this.salary = (salary * value / 100) + salary;
     }
 
+    @Override
+    public String toString() {
+        return  id + " " + name + " " + salary;
+    }
 }
