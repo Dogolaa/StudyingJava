@@ -41,6 +41,8 @@ public class Program {
 
         list.forEach(p -> p.setPrice(p.getPrice() * 1.1));
 
+
+
         list.forEach(System.out::println);
 
     }
